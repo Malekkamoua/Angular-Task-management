@@ -19,6 +19,7 @@ export class TaskService {
   constructor(private http: HttpClient) { }
 
   // getTasks(): Observable<Task[]> {
+  //With http module we dont need Of anymore
   //   const tasks = of(TASKS);
   //   return tasks;
   // }
